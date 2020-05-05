@@ -1,0 +1,292 @@
+
+ 
+p {
+    text-align: center;
+    font-size: 40px;
+
+}
+body {
+    background-color: maroon;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.container1, .container2, .container3, .container4, .container5, .container6, 
+.container7, .container8, .container9, .container10, .container11, .container12
+{
+    position: relative;
+    width: 100%;
+  }
+
+  .image {
+    display: block;
+    width: 100px;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .container1:hover .overlay,  .container2:hover .overlay  ,  .container4:hover .overlay ,  .container5:hover .overlay,
+    .container7:hover .overlay ,  .container8:hover .overlay ,  .container9:hover .overlay ,  .container10:hover .overlay,  
+  .container11:hover .overlay ,  .container12:hover .overlay
+  {
+    opacity: 1;
+    
+  }
+  
+  .container6:hover, .container3:hover{
+    transform: scaleX(-1);
+    
+  }
+  .container6:hover .overlay,  .container3:hover .overlay  {
+    transform: scaleX(-1);
+    opacity: 1;
+
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+ .photogall {
+      display:grid;
+  }
+    .container1 {
+      grid-area: con1;
+      background-image: url(/img-insperation/hero.jpg);
+      background-size: cover;
+      display: block;
+  
+    }
+
+    .container2 {
+    grid-area: con2; 
+    background-image: url(/img-insperation/react.jpg);
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    
+
+    }
+    .container3 {
+        grid-area: con3;
+        background-image: url(/img-insperation/talent.jpg);
+        background-size: cover;  
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .container4 {
+    grid-area: con4;
+    background-image: url(img-insperation/track.jpg);
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-position: bottom;
+    }
+    
+    .container5 {
+        grid-area: con5;
+        background-image: url(/img-insperation/sparrow.jpg);
+        background-size: cover;  
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+  
+      .container6 {
+      grid-area: con6;   
+      background-image: url(/img-insperation/sweat.jpg);
+         background-size: cover;  
+         background-repeat: no-repeat;
+         background-position: center; 
+      }
+
+      .flier > img {
+          width: 150px;
+          opacity: 0;
+      }
+      
+       .container6:hover > .flier > img {
+        width: 50px;
+        opacity: 1;
+    }
+
+      .container7 {
+          grid-area: con7;
+          background-image: url(img-insperation/Lao.jpg);
+          background-size: cover;  
+         background-repeat: no-repeat;
+          background-position: center;
+      }
+  
+      .container8 {
+      grid-area: con8;
+      background-image: url(img-insperation/Love.jpg);
+         background-size: cover;  
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .container9 {
+        grid-area: con9;
+        background-image: url(img-insperation/begin.jpg);
+        background-size: cover;  
+       background-repeat: no-repeat;
+       background-position: center;
+      }
+  
+      .container10 {
+      grid-area: con10;    
+      background-image: url(img-insperation/ifus.jpg);
+      background-size: cover;  
+     background-repeat: no-repeat;
+     background-position: center;
+      }
+
+
+      .container11 {
+          grid-area: con11;
+          background-image: url(img-insperation/limits.jpg);
+          background-size: cover;  
+         background-repeat: no-repeat;
+         background-position: center;
+      }
+  
+      .container12 {
+      grid-area: con12;
+      background-image: url(img-insperation/path.jpg);
+      background-size: cover;  
+     background-repeat: no-repeat;
+     background-position: center;
+      }
+
+
+.photogall {
+    grid-template-rows: 300px 350px 300px 220px 50px 380px;
+    grid-template-columns: 19% 5% 9% 10% 23% 5% 29%;
+    grid-template-areas: 
+    "con1 con1 con2 con2 con2 con3 con3"
+    "con5 con6 con6 con6 con6 con3 con3"
+    "con7 con7 con7 con8 con8 con8 con10"
+    "con7 con7 con7 con8 con8 con8 con9"
+    "con4 con4 con4 con8 con8 con8 con9"
+    "con4 con4 con4 con11 con11 con11 con11";
+    row-gap: 5px;
+    column-gap: 5px;
+
+
+ }
+ @media (min-width: 1025px) {
+    .photogall {
+        grid-template-rows: 300px 350px 300px 220px 50px 380px;
+        grid-template-columns: 19% 5% 9% 10% 23% 5% 29%;
+        grid-template-areas: 
+        "con1 con1 con2 con2 con2 con3 con3"
+        "con5 con6 con6 con6 con6 con3 con3"
+        "con7 con7 con7 con8 con8 con8 con10"
+        "con7 con7 con7 con8 con8 con8 con9"
+        "con4 con4 con4 con8 con8 con8 con9"
+        "con4 con4 con4 con11 con11 con11 con11";
+            
+    }
+    
+  }
+  
+  @media (max-width: 1026px) {
+    .photogall {
+      grid-template-rows: 600px 600px 600px 700px 600px 600px 900px 600px 600px 600px 600px;
+      grid-template-columns: 50% 50%;
+      grid-template-areas:
+        "con1 con1"
+        "con2 con2"
+        "con3 con3"
+        "con4 con4"
+        "con5 con5"
+        "con6 con6"
+        "con7 con8"
+        "con9 con9"
+        "con10 con10"
+        "con11 con11"
+        "con12 con12"
+       
+    }
+    .text {
+        
+        font-size: 50px;
+    }
+    }
+
+    .flier {
+        pointer-events: none;
+    }
+    
+    .flier > * {
+    /* Adjust animation duration to change the element’s speed */
+            animation: fly 15s linear infinite;
+            pointer-events: none !important;
+        top: 0;
+        left: 0;
+        transform: translateX(-120%) translateY(-120%) rotateZ(0);
+        position: fixed;
+        animation-delay: 1s;
+        z-index: 999999;
+    }
+    
+     /* Keyframe values control where the element will begin
+        and end its trajectory across the screen. Each rule
+        represents a path the element follows across the screen. */
+    
+    
+    @keyframes fly {
+    
+        98.001%, 0% {
+                    display: block;
+            transform: translateX(-200%) translateY(100vh) rotateZ(0deg)
+        }
+    
+        15% {
+            transform: translateX(100vw) translateY(-100%) rotateZ(180deg)
+        }
+    
+        15.001%, 18% {
+            transform: translateX(100vw) translateY(-30%) rotateZ(0deg)
+        }
+    
+        40% {
+            transform: translateX(-200%) translateY(3vh) rotateZ(-180deg)
+        }
+    
+        40.001%, 43% {
+            transform: translateX(-200%) translateY(-100%) rotateZ(-180deg)
+        }
+    
+        65% {
+            transform: translateX(100vw) translateY(50vh) rotateZ(0deg)
+        }
+    
+        65.001%, 68% {
+            transform: translateX(20vw) translateY(-200%) rotateZ(180deg)
+        }
+    
+        95% {
+            transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
+        }
+    }
