@@ -82,7 +82,7 @@ body {
 
     .container2 {
     grid-area: con2; 
-    background-image: url(img-insperation/react.jpg);
+    background-image: url(./img-insperation/react.jpg);
     background-size: cover;  
     background-repeat: no-repeat;
     background-position: center;
@@ -92,7 +92,7 @@ body {
     }
     .container3 {
         grid-area: con3;
-        background-image: url(img-insperation/talent.jpg);
+        background-image: url(./img-insperation/talent.jpg);
         background-size: cover;  
         background-repeat: no-repeat;
         background-position: center;
@@ -100,7 +100,7 @@ body {
 
     .container4 {
     grid-area: con4;
-    background-image: url(img-insperation/track.jpg);
+    background-image: url(./img-insperation/track.jpg);
     background-size: cover;  
     background-repeat: no-repeat;
     background-position: bottom;
@@ -108,7 +108,7 @@ body {
     
     .container5 {
         grid-area: con5;
-        background-image: url(img-insperation/sparrow.jpg);
+        background-image: url(./img-insperation/sparrow.jpg);
         background-size: cover;  
         background-repeat: no-repeat;
         background-position: center;
@@ -116,7 +116,7 @@ body {
   
       .container6 {
       grid-area: con6;   
-      background-image: url(img-insperation/sweat.jpg);
+      background-image: url(./img-insperation/sweat.jpg);
          background-size: cover;  
          background-repeat: no-repeat;
          background-position: center; 
@@ -134,7 +134,7 @@ body {
 
       .container7 {
           grid-area: con7;
-          background-image: url(img-insperation/Lao.jpg);
+          background-image: url(./img-insperation/Lao.jpg);
           background-size: cover;  
          background-repeat: no-repeat;
           background-position: center;
@@ -142,14 +142,14 @@ body {
   
       .container8 {
       grid-area: con8;
-      background-image: url(img-insperation/Love.jpg);
+      background-image: url(./img-insperation/Love.jpg);
          background-size: cover;  
         background-repeat: no-repeat;
         background-position: center;
       }
       .container9 {
         grid-area: con9;
-        background-image: url(img-insperation/begin.jpg);
+        background-image: url(./img-insperation/begin.jpg);
         background-size: cover;  
        background-repeat: no-repeat;
        background-position: center;
@@ -157,7 +157,7 @@ body {
   
       .container10 {
       grid-area: con10;    
-      background-image: url(img-insperation/ifus.jpg);
+      background-image: url(./img-insperation/ifus.jpg);
       background-size: cover;  
      background-repeat: no-repeat;
      background-position: center;
@@ -166,7 +166,7 @@ body {
 
       .container11 {
           grid-area: con11;
-          background-image: url(img-insperation/limits.jpg);
+          background-image: url(./img-insperation/limits.jpg);
           background-size: cover;  
          background-repeat: no-repeat;
          background-position: center;
@@ -174,7 +174,7 @@ body {
   
       .container12 {
       grid-area: con12;
-      background-image: url(img-insperation/path.jpg);
+      background-image: url(./img-insperation/path.jpg);
       background-size: cover;  
      background-repeat: no-repeat;
      background-position: center;
